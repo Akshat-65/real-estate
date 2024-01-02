@@ -9,7 +9,7 @@ mongoose
     console.log("connected to MongoDB");
   })
   .catch((err) => {
-    console.log(err);
+    console.log(err)
   });
 
 const app = express();
